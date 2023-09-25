@@ -3,7 +3,7 @@ $name = $_GET["name"];
 $surname = $_GET["surname"];
 $note = $_GET["note"];
 
-$result = str_replace('$note', '***', $note );
+$result = str_replace($note, '***', $note );
 ?>
 
 
