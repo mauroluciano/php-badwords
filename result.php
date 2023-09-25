@@ -31,6 +31,8 @@ $result = str_replace($note, '***', $note );
     <p><?php echo $result ?></p>
 
 
-
+<div>
+    <a href="index.php"><h2>Ripeti</h2></a>
+</div>
 </body>
 </html>
